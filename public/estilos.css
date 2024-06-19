@@ -1,0 +1,32 @@
+@import '~bootstrap/dist/css/bootstrap.css';
+
+body {
+    font: 1rem/1.5 var(--bs-font-sans-serif);
+  }
+  a {
+    color: var(--bs-blue);
+  }
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* Ejemplo de estilos */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.styled-table th, .styled-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.styled-table th {
+    background-color: #f2f2f2;
+}
